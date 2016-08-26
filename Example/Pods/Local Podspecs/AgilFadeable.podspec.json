@@ -1,0 +1,22 @@
+{
+  "name": "AgilFadeable",
+  "version": "0.1.0",
+  "summary": "A short description of AgilFadeable.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/AgilFadeable",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Albert Gil Escura": "agilescura@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/AgilFadeable.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AgilFadeable/Classes/**/*"
+}

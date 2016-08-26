@@ -1,0 +1,6 @@
+framework module AgilFadeable {
+  umbrella header "AgilFadeable-umbrella.h"
+
+  export *
+  module * { export * }
+}
