@@ -45,7 +45,7 @@
 		8E327B987ED478D93969B5A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AA7305241234CAE1E1FA770B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B7FD47CFA2D0F20C240F9E11 /* Pods_AgilFadeable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgilFadeable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF0CF07AB08CCEFDF8CD3FC4 /* AgilFadeable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AgilFadeable.podspec; path = ../AgilFadeable.podspec; sourceTree = "<group>"; };
+		DF0CF07AB08CCEFDF8CD3FC4 /* AgilFadeable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = AgilFadeable.podspec; path = ../AgilFadeable.podspec; sourceTree = "<group>"; };
 		E0BB5067F0EFFAED5CE1E710 /* Pods-AgilFadeable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgilFadeable_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AgilFadeable_Example/Pods-AgilFadeable_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

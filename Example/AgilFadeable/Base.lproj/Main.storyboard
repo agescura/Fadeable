@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A304a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="AgilFadeable_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,8 +16,32 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hxF-QY-hOG">
+                                <rect key="frame" x="180" y="80" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQ7-2x-JTz">
+                                <rect key="frame" x="258" y="285" width="84" height="30"/>
+                                <state key="normal" title="Toggle Fade"/>
+                                <connections>
+                                    <action selector="fadeToggleTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dSF-jL-0W0"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hxF-QY-hOG" firstAttribute="centerX" secondItem="pQ7-2x-JTz" secondAttribute="centerX" id="7WF-x5-a3X"/>
+                            <constraint firstItem="pQ7-2x-JTz" firstAttribute="top" secondItem="hxF-QY-hOG" secondAttribute="bottom" constant="77" id="94b-OH-kyu"/>
+                            <constraint firstItem="pQ7-2x-JTz" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="Q2K-zE-4xc"/>
+                            <constraint firstItem="hxF-QY-hOG" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="180" id="Vnw-Yd-5ha"/>
+                            <constraint firstItem="hxF-QY-hOG" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="60" id="Xu6-ZG-0rU"/>
+                            <constraint firstItem="hxF-QY-hOG" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="iWN-nZ-ON8"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="box" destination="hxF-QY-hOG" id="WK2-uZ-64M"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

@@ -18,7 +18,7 @@
 		1330782A55555085FE8872AF7BA8DD48 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311C620023A9445DE68F2582C13839E5 /* DSL.swift */; };
 		135B6326D35C977854AA0C12B3F6CB7D /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7116E4797A8F559FBCC350C433EB2AB /* DSL.swift */; };
 		13CC849FA70CADF802470B6A90DCDF79 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425293E77484F37F2F26FA98CECCAB9F /* AllPass.swift */; };
-		17F60F80D742BA5414A4DFCC325B9DF1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AE17607DA1723939444401A3769189 /* ReplaceMe.swift */; };
+		17F60F80D742BA5414A4DFCC325B9DF1 /* AgilFadeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AE17607DA1723939444401A3769189 /* AgilFadeable.swift */; };
 		1C696A0CCC5C29FFBBB8620F5DC8FA6D /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA51A537B8A1D62516D4D49038B2EA /* Example.swift */; };
 		1ED8C77E9422C66BBF56E6C10D5826F0 /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF330BF6C88C59845888329E76AF044 /* NMBExceptionCapture.m */; };
 		23626BC4DDA1A2E90A155728F57802FF /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 859C5C30856A6617F00E5D648C212EC9 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -273,7 +273,7 @@
 		859C5C30856A6617F00E5D648C212EC9 /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/Nimble/objc/DSL.h; sourceTree = "<group>"; };
 		862C2BEB4BDFEFE33B0047E29E8F1008 /* Pods-AgilFadeable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AgilFadeable_Example-dummy.m"; sourceTree = "<group>"; };
 		87225E9B9E389551A1F536347B982B04 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
-		87AE17607DA1723939444401A3769189 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		87AE17607DA1723939444401A3769189 /* AgilFadeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AgilFadeable.swift; sourceTree = "<group>"; };
 		88CC9179543B4BE3415FDF6A9E07E66A /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		8C36DB6F05615EC71278526272A72BAD /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF1B41E38EDD94E1ED1FE9BC999DEF1 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
@@ -536,7 +536,7 @@
 		36A1D4A84FE23A5B6CEA1E8DE45EB76D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				87AE17607DA1723939444401A3769189 /* ReplaceMe.swift */,
+				87AE17607DA1723939444401A3769189 /* AgilFadeable.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1143,7 +1143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AED10DFE5BC9CB215B79781F0DFACD0B /* AgilFadeable-dummy.m in Sources */,
-				17F60F80D742BA5414A4DFCC325B9DF1 /* ReplaceMe.swift in Sources */,
+				17F60F80D742BA5414A4DFCC325B9DF1 /* AgilFadeable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
